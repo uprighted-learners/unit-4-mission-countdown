@@ -7,8 +7,8 @@ In this lab, we will be practicing with basic DOM scripting. We will utilize the
 Topics:
 
 - DOM Scripting.
-- The Web API  `setTimeout` timer.
-- The Web API `setInterval` timer with `clearInterval`.
+- The Web API  [`setTimeout`](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout) timer.
+- The Web API [`setInterval`](https://developer.mozilla.org/en-US/docs/Web/API/setInterval) timer with `clearInterval`.
 - HTML.
 
 ## Achieving
@@ -19,7 +19,7 @@ Your work will result in:
 
 - A website that displays a MISSION COUNTDOWN title.
 - A button with the text GET READY? that starts the timeout timer.
-- A header that displays GET READY... that changes to READY! when the time out is complete.
+- A header that displays GETTING READY... that changes to READY! when the time out is complete.
 - A button with the text START COUNTDOWN that starts the interval timer.
 - When START COUNTDOWN is clicked, an interval timer appears on the page that countdowns from 5 to 1.
 - After 1 in the interval timer, the display changes to GO!
@@ -66,6 +66,7 @@ Your work will result in:
 - [ ] Inside of this `if` statement, change the `textContent` to be "GO!"
 - [ ] Inside of this `if` statement, utilize `clearInterval` and pass in the variable that holds the `setInterval` timer.
 - [ ] The second argument passed to `setInterval` is the time in miliseconds we want the delay or interval to be. We want it to be 1 second.
+- [ ] Once this part of the lab is completed, proceed to part two below
 
 # Review
 
@@ -92,7 +93,7 @@ The software should:
 
 ## Learning
 
-In this lab, we will extend the previous [Timers](https://online.uprighted.com/lessons/written/timer) lab to include a nested timer. All of the topics will be the same, we will just be diving into more complexity. If you did not complete the previous lab, you can find a basic version at this link: [Mission Countdown Timer Lab](https://replit.com/@limzkil/mission-countdown-timer#index.html).
+In this lab, we will extend the previous Timers lab to include a nested timer. All of the topics will be the same, we will just be diving into more complexity.
 
 Topics:
 
@@ -120,8 +121,7 @@ Your work will result in:
 
 ### Setting up our new `setInterval` timer
 - [ ] Below the first `clearInterval` and **within the same scope**, do the following:
-- [ ] Set up an `if` whose condition checks if `isCountedDown` is true.
-- [ ] Within this `if`: `repeatGo` is currently a HTML Collection, not an Array. Turn it into an Array and assign the result to `repeatGoArray`.
+- [ ] `repeatGo` is currently a HTML Collection, not an Array. Turn it into an Array, utilizing [Array.from()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from) and assign the result to `repeatGoArray`.
 - [ ] Set up the variable `index` with the initial value of 0.
 - [ ] Create a variable to hold the new `setInterval` timer.
 - [ ] The callback function to this second `setInterval` should target `repeatGoArray` at `index` and change its `textContent` to "GO!". It should also increment index. 
