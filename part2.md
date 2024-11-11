@@ -4,7 +4,7 @@
 
 ## Learning
 
-In this lab, we will extend the previous Timers lab to include a nested timer. All of the topics will be the same, we will just be diving into more complexity.
+In this exercise, we will extend the previous Timers exercise to include a nested timer. All of the topics will be the same, we will just be diving into more complexity.
 
 Topics:
 
@@ -15,11 +15,11 @@ Topics:
 
 ## Achieving
 
-In this lab, you will have a nested `setInterval` timer that fires after the initial interval is complete.
+In this exercise, you will have a nested `setInterval` timer that fires after the initial interval is complete.
 
 Your work will result in:
 
-- When the initial `setInterval` hits "GO!" as described in the previous lab, another `setInterval` will fire.
+- When the initial `setInterval` hits "GO!" as described in the previous exercise, another `setInterval` will fire.
 - This new `setInterval` will change the content of three `<h2>`s to print "GO!" one after the other.
 
 ## Procedure
@@ -48,6 +48,6 @@ The software should:
 
 ## Going Further
 
-- Refer to the Going Further on the previous lab and complete those suggestions.
+- Refer to the Going Further on the previous exercise and complete those suggestions.
 - Refactor the logic handling the nested timer using a [for loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement) for more concision.
 - Remove the 'repeat-go' elements in `index.html`. Instead, use JavaScript to programmatically generate these elements in the nested timer.

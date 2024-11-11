@@ -2,7 +2,7 @@
 
 ## Learning
 
-In this lab, we will be practicing with basic DOM scripting. We will utilize the `setTimeout` and `setInterval` Web API timers. We will also need to utilize HTML.
+In this exercise, we will be practicing with basic DOM scripting. We will utilize the `setTimeout` and `setInterval` Web API timers. We will also need to utilize HTML.
 
 Topics:
 
@@ -13,7 +13,7 @@ Topics:
 
 ## Achieving
 
-In this lab, we will want to create a MISSION COUNTDOWN.
+In this exercise, we will want to create a MISSION COUNTDOWN.
 
 Your work will result in:
 
@@ -66,11 +66,11 @@ Your work will result in:
 - [ ] Inside of this `if` statement, change the `textContent` to be "GO!"
 - [ ] Inside of this `if` statement, utilize `clearInterval` and pass in the variable that holds the `setInterval` timer.
 - [ ] The second argument passed to `setInterval` is the time in miliseconds we want the delay or interval to be. We want it to be 1 second.
-- [ ] Once this part of the lab is completed, proceed to part two
+- [ ] Once this part of the exercise is completed, proceed to part two
 
 # Review
 
-In this lab, we utilized the `setTimeout` and `setInterval` timers to achieve two different kinds of display to the user.
+In this exercise, we utilized the `setTimeout` and `setInterval` timers to achieve two different kinds of display to the user.
 
 The software should:
 
